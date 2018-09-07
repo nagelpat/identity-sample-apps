@@ -14,3 +14,6 @@ security:
 logging.level:
   org.springframework.security: DEBUG
 resourceServerUrl: ${RESOURCE_URL:https://resource-server.domain}
+management:
+  cloudfoundry:
+    skip-ssl-validation: true
